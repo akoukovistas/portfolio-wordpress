@@ -55,6 +55,7 @@ class ProjectsPostType
 			'can_export' => true,
 			'has_archive' => true,
 			'exclude_from_search' => false,
+			'taxonomies' => ['project_tag'],
 			'publicly_queryable' => true,
 			'capability_type' => 'post',
 			'show_in_rest' => true,
